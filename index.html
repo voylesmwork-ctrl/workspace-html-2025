@@ -204,8 +204,36 @@
 				<img src="img/add.gif" alt="add symbol"> Add
 			</button>
 			<!-- HTML 5 -->
-			 <input type="color" autofocus>
-			 <input type="date" required>
+			 <form action="">
+			 <input type="color" name="color"> <br> <br>
+			 <input type="date" name="dates">
+			 <p>
+				Email Address*:<input type="email" placeholder="xxx@usca.edu" required>
+			</p>
+			<p>
+				Telephone number:<input type="tel" placeholder="xxx-xxx-xxxx" pattern="\d{3}-\d{3}-\d{4}">
+			</p>
+			<p>
+				<input type="submit" value="Submit">
+			</p>
+			 
+			</form>
+			<!--Required-->
+			<form action="">
+				<p><input type="text" autofocus placeholder="First name">   <input type="text" autofocus placeholder="Last name"></p>
+				<p>
+				Email Address*:<input type="email" placeholder="xxx@usca.edu" required>
+				</p>
+				<p>
+					Telephone number:<input type="tel" placeholder="xxx-xxx-xxxx" pattern="\d{3}-\d{3}-\d{4}">
+				</p>
+				<p>
+					<input type="date">
+				</p>
+				<p>
+					<input type="submit" value="Submit">
+				</p>
+			</form>
 		</div>
 
 	</div>
